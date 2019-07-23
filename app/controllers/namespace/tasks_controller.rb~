@@ -1,0 +1,7 @@
+class DocumentsController < ApplicationController
+
+  def index
+    redirect_to Document.find(params[:id])
+  end
+
+end
